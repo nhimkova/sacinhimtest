@@ -14,6 +14,9 @@
 		088E47401C80F6370069C6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088E473E1C80F6370069C6FD /* LaunchScreen.storyboard */; };
 		088E474B1C80F6370069C6FD /* sacinhimtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E474A1C80F6370069C6FD /* sacinhimtestTests.swift */; };
 		088E47561C80F6370069C6FD /* sacinhimtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47551C80F6370069C6FD /* sacinhimtestUITests.swift */; };
+		088E47641C80F7900069C6FD /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47631C80F7900069C6FD /* GenderViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		088E47661C80F79C0069C6FD /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47651C80F79C0069C6FD /* AgeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		088E47681C80F7A80069C6FD /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47671C80F7A80069C6FD /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		088E47511C80F6370069C6FD /* sacinhimtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sacinhimtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088E47551C80F6370069C6FD /* sacinhimtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sacinhimtestUITests.swift; sourceTree = "<group>"; };
 		088E47571C80F6370069C6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088E47631C80F7900069C6FD /* GenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		088E47651C80F79C0069C6FD /* AgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		088E47671C80F7A80069C6FD /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		088E47341C80F6370069C6FD /* sacinhimtest */ = {
 			isa = PBXGroup;
 			children = (
+				088E47691C80F7BB0069C6FD /* ViewController */,
 				088E47351C80F6370069C6FD /* AppDelegate.swift */,
 				088E47371C80F6370069C6FD /* ViewController.swift */,
 				088E47391C80F6370069C6FD /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				088E47571C80F6370069C6FD /* Info.plist */,
 			);
 			path = sacinhimtestUITests;
+			sourceTree = "<group>";
+		};
+		088E47691C80F7BB0069C6FD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				088E47631C80F7900069C6FD /* GenderViewController.swift */,
+				088E47671C80F7A80069C6FD /* ContactViewController.swift */,
+				088E47651C80F79C0069C6FD /* AgeViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088E47641C80F7900069C6FD /* GenderViewController.swift in Sources */,
 				088E47381C80F6370069C6FD /* ViewController.swift in Sources */,
+				088E47661C80F79C0069C6FD /* AgeViewController.swift in Sources */,
 				088E47361C80F6370069C6FD /* AppDelegate.swift in Sources */,
+				088E47681C80F7A80069C6FD /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sacinhimtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nhimo.sacinhimtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sacinhimtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nhimo.sacinhimtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
