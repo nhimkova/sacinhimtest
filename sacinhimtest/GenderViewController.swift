@@ -16,7 +16,7 @@ class GenderViewController: UIViewController {
     @IBOutlet weak var womanLabel: UILabel!
     @IBOutlet weak var naLabel: UILabel!
     
-    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
