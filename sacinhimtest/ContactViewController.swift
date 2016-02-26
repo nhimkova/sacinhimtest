@@ -26,7 +26,9 @@ class ContactViewController: UIViewController {
         
         //position and setting before animation here
         
+        //i started coding here blablab al
         
+        //some kind of code blabla
         
         
     } // end of viewWillAppear
