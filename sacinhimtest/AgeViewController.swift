@@ -12,7 +12,9 @@ class AgeViewController: UIViewController {
     
     //Link your UI elements here
     
-    
+    @IBOutlet weak var under17Label: UILabel!
+    @IBOutlet weak var under29Label: UILabel!
+    @IBOutlet weak var from30Label: UILabel!
     
     
     override func viewDidLoad() {

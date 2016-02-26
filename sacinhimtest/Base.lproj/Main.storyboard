@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Gender View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sacinhimtest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GenderViewController" customModule="sacinhimtest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -80,15 +80,20 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="manLabel" destination="ulG-Pb-SN4" id="XHG-oL-gHs"/>
+                        <outlet property="naLabel" destination="3NB-Ad-lrF" id="LYh-yo-uK9"/>
+                        <outlet property="womanLabel" destination="paK-Ne-HNB" id="zE3-xZ-Kdf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="304.5" y="355"/>
         </scene>
-        <!--View Controller-->
+        <!--Age View Controller-->
         <scene sceneID="ANL-PP-nUE">
             <objects>
-                <viewController id="eSg-9J-c28" sceneMemberID="viewController">
+                <viewController id="eSg-9J-c28" customClass="AgeViewController" customModule="sacinhimtest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V47-da-SPL"/>
                         <viewControllerLayoutGuide type="bottom" id="jyD-tT-tID"/>
@@ -161,15 +166,20 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="from30Label" destination="glG-E7-Wbg" id="WnO-kA-bg0"/>
+                        <outlet property="under17Label" destination="NRC-nh-6EY" id="gXh-BU-rt9"/>
+                        <outlet property="under29Label" destination="Sxi-fG-6Le" id="Mur-lL-08C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Co-Jc-oaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="963" y="355"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact View Controller-->
         <scene sceneID="ko0-rC-SZ8">
             <objects>
-                <viewController id="lh7-qF-yYo" sceneMemberID="viewController">
+                <viewController id="lh7-qF-yYo" customClass="ContactViewController" customModule="sacinhimtest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s4Q-AN-zmF"/>
                         <viewControllerLayoutGuide type="bottom" id="r0e-mn-XqQ"/>
@@ -242,6 +252,11 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="phoneTextfield" destination="O8k-8n-eiS" id="YMg-Vv-rFg"/>
+                        <outlet property="rephoneTextfield" destination="3mK-N8-Lfo" id="3xV-Bu-eOI"/>
+                        <outlet property="submitButton" destination="jUP-mb-oax" id="Qtd-GZ-lgz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pff-ZF-t7Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

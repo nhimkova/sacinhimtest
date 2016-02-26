@@ -11,6 +11,9 @@ import UIKit
 class ContactViewController: UIViewController {
     
     //Link your UI elements here
+    @IBOutlet weak var phoneTextfield: UITextField!
+    @IBOutlet weak var rephoneTextfield: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
     
     
     

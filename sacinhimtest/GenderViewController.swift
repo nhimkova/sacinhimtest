@@ -12,6 +12,9 @@ class GenderViewController: UIViewController {
     
     //Link your UI elements here
     
+    @IBOutlet weak var manLabel: UILabel!
+    @IBOutlet weak var womanLabel: UILabel!
+    @IBOutlet weak var naLabel: UILabel!
     
     
     

@@ -14,9 +14,9 @@
 		088E47401C80F6370069C6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088E473E1C80F6370069C6FD /* LaunchScreen.storyboard */; };
 		088E474B1C80F6370069C6FD /* sacinhimtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E474A1C80F6370069C6FD /* sacinhimtestTests.swift */; };
 		088E47561C80F6370069C6FD /* sacinhimtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47551C80F6370069C6FD /* sacinhimtestUITests.swift */; };
-		088E47641C80F7900069C6FD /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47631C80F7900069C6FD /* GenderViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		088E47661C80F79C0069C6FD /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47651C80F79C0069C6FD /* AgeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		088E47681C80F7A80069C6FD /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47671C80F7A80069C6FD /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		088E47641C80F7900069C6FD /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47631C80F7900069C6FD /* GenderViewController.swift */; };
+		088E47661C80F79C0069C6FD /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47651C80F79C0069C6FD /* AgeViewController.swift */; };
+		088E47681C80F7A80069C6FD /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E47671C80F7A80069C6FD /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,8 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				088E47631C80F7900069C6FD /* GenderViewController.swift */,
-				088E47671C80F7A80069C6FD /* ContactViewController.swift */,
 				088E47651C80F79C0069C6FD /* AgeViewController.swift */,
+				088E47671C80F7A80069C6FD /* ContactViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -506,6 +506,7 @@
 				088E475C1C80F6370069C6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		088E475D1C80F6370069C6FD /* Build configuration list for PBXNativeTarget "sacinhimtestTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				088E475F1C80F6370069C6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		088E47601C80F6370069C6FD /* Build configuration list for PBXNativeTarget "sacinhimtestUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				088E47621C80F6370069C6FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
