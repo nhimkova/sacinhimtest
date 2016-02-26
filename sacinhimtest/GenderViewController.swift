@@ -27,7 +27,7 @@ class GenderViewController: UIViewController {
         
         //position and setting before animation here
         
-        
+        // other code blalbalal
         
         
     } // end of viewWillAppear
